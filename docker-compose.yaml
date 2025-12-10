@@ -24,7 +24,7 @@ services: # https://github.com/pi-hole/docker-pi-hole/
     container_name: pihole-tailscale
     hostname: pihole
     environment:
-      - TS_AUTHKEY=tskey-auth-kT7qMM8bzb11CNTRL-cseyb29mmxaz5j1MVxh3yaHgLrB7TT5R
+      - TS_AUTHKEY=tskey-auth-kmCsZUvwJJ11CNTRL-HNkcnKv83kduPz7fPYUPkdWt1ayNNwtCM
       - TS_STATE_DIR=/var/lib/tailscale
       - TS_USERSPACE=false
       - TS_HOSTNAME=pihole
